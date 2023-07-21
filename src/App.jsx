@@ -1,5 +1,4 @@
 import React from 'react'
-import AppButton from './stayProps/AppButton'
 import MiddleComponent from './stayProps/MiddleComponent'
 import './index.css'
 
