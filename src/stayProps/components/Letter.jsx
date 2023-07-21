@@ -9,7 +9,6 @@ function Letter ({
   fontWeight,
 }) {
   const [isHovered, setIsHovered] = useState(false);
-
   const handleHover = () => {
     setIsHovered(true);
     setTimeout(() => {

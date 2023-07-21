@@ -2,12 +2,10 @@ import React from "react";
 import Letter from "./components/Letter";
 
 function AppButton() {
-
   return (
     <>
      <div>
      <h1 className="h1" style={{ display: 'flex', justifyContent: 'flex-end' }}>
-    
      <Letter className="title" letter="T" textColor="#4ec4ff" paddingBottom="10px" fontWeight="bold"/>
         <Letter letter="r"  />
         <Letter letter="o"  />
