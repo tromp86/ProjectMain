@@ -17,7 +17,6 @@ import image9 from "./assets/ico/mongo.png";
 import image10 from "./assets/ico/git.png";
 
 function App() {
-
   return (
     <div>
       <MiddleComponent />
