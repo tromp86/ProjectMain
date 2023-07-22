@@ -1,6 +1,7 @@
 import React from 'react'
-import AppButton from './stayProps/AppButton'
 import MiddleComponent from './stayProps/MiddleComponent'
+import PrintText from './stayProps/PrintText'
+import Product from './Product.jsx'
 import './index.css'
 
 import imagezero from "./assets/ico/html.png";
@@ -16,13 +17,15 @@ import image8 from "./assets/ico/webpack.png";
 import image9 from "./assets/ico/mongo.png";
 import image10 from "./assets/ico/git.png";
 
+import imageProj1 from "./assets/project/Leonardo0.jpg";
+
 function App() {
   return (
     <div>
       <MiddleComponent />
       <div id="portfolio">
         <div id="skills">
-          <h1>skills.</h1>
+          <h1>Skills.</h1>
           <div className="skills-block">
             <ul className="skills-list">
               <li><img src={imagezero} alt="HTML" />html</li>
@@ -39,13 +42,22 @@ function App() {
               <li><img src={image10} alt="HTML" />git</li>
             </ul>
           </div>
-          <div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum tincidunt nulla, id semper mi cursus ac.
-            </p>
+          <div className='p-skills'>
+              <PrintText sampleText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum tincidunt nulla, id semper mi cursus ac." style="font-size: 30px;"/>
           </div>
         </div>
       </div>
+
+      <div id='work' className='flex'>
+    <Product
+        title="Socket market"
+        icon={<img className='image' src={imageProj1} alt="Product 1 Icon" />} 
+        description="Це опис продукту 1."
+        rating={4.5}
+        recipeLink="https://example.com/recipe1"
+      />
+    </div>
+
     </div>
   );
 };

@@ -1,0 +1,91 @@
+.card {
+  --background: #fff;
+  --cardShadow: rgba(32, 33, 37, 0.1);
+  --cardShadowHover: rgba(32, 33, 37, 0.06);
+  --cardShadowActive: rgba(32, 33, 37, 0.55);
+  --cardBorder: #dbdce0;
+  --cardBorderActive: #1a73e8;
+  --textColor: #202125;
+  --linkColor: #1967d2;
+  --ratingColor: #faab00;
+}
+
+@media (prefers-color-scheme: dark) {
+  .card {
+    --background: #3c4043;
+    --cardShadow: rgba(0, 0, 0, 0.28);
+    --cardShadowHover: rgba(0, 0, 0, 0.16);
+    --cardShadowActive: rgba(0, 0, 0, 0.55);
+    --cardBorder: #202125;
+    --cardBorderActive: #8ab4f8;
+    --textColor: #e9eaee;
+    --linkColor: #8ab4f8;
+  }
+}
+
+.card {
+  /* width: 450px;
+  height: 350px; */
+  aspect-ratio: 2/3;
+  background: var(--background);
+  color: var(--textColor);
+  border: 1px solid var(--cardBorder);
+  padding: 25px;
+  box-shadow: 8px 8px 0 var(--cardShadow);
+  transition: box-shadow 0.5s, transform 0.5s;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.card:hover {
+  transform: translate(-2px, -4px);
+  box-shadow: 16px 16px 0 var(--cardShadowHover);
+}
+
+.card:active {
+  transform: translate(-2px, -4px);
+  border: 2px solid var(--cardBorderActive);
+  box-shadow: 4px 4px 0 var(--cardShadowActive);
+}
+
+.card > .icon,
+.card > .title,
+.card > .description {
+  margin-bottom: 0.3em;
+  cursor: default;
+  user-select: none;
+}
+
+.card > .title {
+  margin-top: 1.2em;
+  font-weight: bold;
+}
+
+.card > .description {
+  line-height: 1.5em;
+  min-height: 6em;
+}
+
+.card > .icon {
+  font-size: 3em;
+  margin-bottom: 0.2em;
+}
+.image {
+  width: 300px;
+}
+
+.card > .rating {
+  font-size: 1.5em;
+  margin-bottom: 0.8em;
+  color: var(--ratingColor);
+  font-weight: bold;
+  position: relative;
+  width: max-content;
+}
+
+.card > .link {
+  margin-bottom: 1rem;
+  color: var(--linkColor);
+  font-size: 0.8em;
+  font-weight: 600;
+}
