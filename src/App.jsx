@@ -52,9 +52,10 @@ function App() {
     <Product
         title="Socket market"
         icon={<img className='image' src={imageProj1} alt="Product 1 Icon" />} 
-        description="Це опис продукту 1."
+        description="Ready project of the online store"
+        descriptionMain="This project was generated with Angular CLI version 15.2.7."
         rating={4.5}
-        recipeLink="https://example.com/recipe1"
+        recipeLink ="https://github.com/tromp86/online-shop-master" 
       />
     </div>
 
