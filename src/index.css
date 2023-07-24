@@ -6,7 +6,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #f3f3f3;
-
+  overflow-x: hidden;
 }
 
 a {
@@ -14,11 +14,11 @@ a {
   text-decoration: none;
   transition: 1.5s ease-in-out;
 }
-.h1{
+.h1 {
   font-size: 3.8rem;
   letter-spacing: 4px;
 }
-.letter:first-child{
+.letter:first-child {
   font-weight: 900;
   font-size: 4.5rem;
   margin-bottom: 50px;
@@ -57,15 +57,15 @@ html {
   -o-animation: Gradient 2s ease infinite;
   animation: Gradient 2s ease infinite;
 }
-.header-links{
+.header-links {
   display: flex;
   margin-top: -160px;
   justify-content: center;
 }
 .links {
-  margin: 0px 40px ;
-  color: #fff;
-  font-size: 1.6rem;
+  margin: 0px 40px;
+  color: #1c1d1f;
+  font-size: 1.9rem;
 }
 .btn_one a {
   margin: 0px 30px;
@@ -82,7 +82,11 @@ a:hover {
 #middle {
   width: 100%;
   height: 80vh;
-  background: linear-gradient(0deg, rgba(42, 42, 42, 0.773), rgba(37, 37, 37, 0)),
+  background: linear-gradient(
+      0deg,
+      rgba(42, 42, 42, 0.773),
+      rgba(37, 37, 37, 0)
+    ),
     url("./assets/1.jpg") center center fixed;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -100,15 +104,16 @@ a:hover {
   left: 0;
 }
 #portfolio {
-  width: 80%;
-  padding: 2% 10%;
+  width: 100%;
+  padding: 4% 0%;
   color: #ff416c;
   font-size: 25px;
+  margin-left: 10px;
 }
-.p-skills{
+.p-skills {
   color: #000;
 }
-.flex{
+.flex {
   display: flex;
   background-color: #d9d9d9;
 }
@@ -212,8 +217,10 @@ button:focus {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding: 0;
   margin: 0;
+  margin-right: 10px;
 }
 
 .skills-list li {
@@ -223,7 +230,8 @@ button:focus {
   align-items: center;
   flex-direction: column;
   gap: 10px;
-  margin-left: 30px;
+  /* margin-left: 30px; */
+  margin: 20px;
   color: #2a2d34;
 }
 
@@ -238,15 +246,16 @@ button:focus {
   height: 90px;
 }
 
-
 @media (max-width: 768px) {
-  #middle{
-    width: 100%;
-    height: 80vh;
-    background: linear-gradient(0deg, rgba(42, 42, 42, 0.773), rgba(37, 37, 37, 0)),
-      url("./assets/1.jpg");
-    background-size: 320% auto;
-    background-repeat: no-repeat;
+  #middle {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        0deg,
+        rgba(69, 55, 50, 0.773),
+        rgba(33, 24, 24, 0)
+      );
+      background-size: 200%;
     color: white;
     display: flex;
     justify-content: center;
@@ -256,11 +265,17 @@ button:focus {
   }
   #tagline {
     position: relative;
-    font-size: 2.3rem;
+    font-size: 2.7rem;
   }
   .links {
-display: none;
-}
+    display: none;
+  }
+  #header {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    transition: 0.6s ease-in-out;
+  }
 }
 
 /* Стилі для планшетів */

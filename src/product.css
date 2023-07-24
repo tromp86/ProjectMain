@@ -22,10 +22,16 @@
     --linkColor: #8ab4f8;
   }
 }
-
+.flex{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
 .card {
+  position: relative;
   width: 400px;
-  aspect-ratio: 2/3;
+  height: 600px;
   background: var(--background);
   color: var(--textColor);
   border: 1px solid var(--cardBorder);
@@ -33,9 +39,15 @@
   box-shadow: 8px 8px 0 var(--cardShadow);
   transition: box-shadow 0.5s, transform 0.5s;
   border-radius: 8px;
-  display: inline-block;
+  margin: 20px;
 }
-
+p{
+  padding-left: 15px;
+  padding-right: 20px;
+  margin-left: 0px;
+  margin-right: 10px;
+  text-align: center;
+}
 .card:hover {
   transform: translate(-2px, -4px);
   box-shadow: 16px 16px 0 var(--cardShadowHover);
@@ -46,52 +58,74 @@
   border: 2px solid var(--cardBorderActive);
   box-shadow: 4px 4px 0 var(--cardShadowActive);
 }
-
-.card > .icon,
-.card > .title,
-.card > .description {
-  margin-bottom: 0.3em;
-  cursor: default;
-  user-select: none;
-}
-
-.card > .title {
-  margin-top: 1.2em;
+/* .card > .title {
+  margin-top: 1.9em;
   font-weight: bold;
-}
+} */
 
 .card > .description {
-  line-height: 1.5em;
-  min-height: 6em;
+  line-height: 1.9em;
 }
 .card > .descriptionMain {
-  line-height: 1.2em;
-  min-height: 3em;
-  font-size: 1rem;
+  line-height: 1.5em;
+  font-size: 1.2rem;
   color: #3c4043;
 }
 
 .card > .icon {
   font-size: 3em;
-  margin-bottom: 0.2em;
   text-align: center;
 }
 .image {
   width: 300px;
 }
-
+.rating {
+  position: absolute;
+  bottom: 30px;
+}
 .card > .rating {
   font-size: 1.5em;
   margin-bottom: 0.8em;
   color: var(--ratingColor);
   font-weight: bold;
-  position: relative;
+  /* position: relative; */
   width: max-content;
 }
-
-.card > .link {
+.link {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  margin: auto;
+}
+/* .card > .link {
   margin-bottom: 1rem;
   color: var(--linkColor);
   font-size: 0.8em;
   font-weight: 600;
+} */
+@media (max-width: 768px) {
+  .card {
+    max-width: 200px;
+    height: 500px;
+    background: var(--background);
+    color: var(--textColor);
+    border: 1px solid var(--cardBorder);
+    padding: 25px;
+    box-shadow: 8px 8px 0 var(--cardShadow);
+    transition: box-shadow 0.5s, transform 0.5s;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+  .card > .icon {
+    font-size: 3em;
+    margin-bottom: 0.2em;
+    text-align: center;
+  }
+  .image {
+    width: 200px;
+  }
+  #portfolio div h1 {
+    margin-left: 20px;
+  }
 }
