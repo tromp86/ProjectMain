@@ -1,6 +1,5 @@
 import React from 'react'
 import MiddleComponent from './stayProps/MiddleComponent'
-// import PrintText from './stayProps/PrintText'
 import Product from './Product.jsx'
 import './index.css'
 
@@ -17,7 +16,9 @@ import image8 from "./assets/ico/webpack.png";
 import image9 from "./assets/ico/mongo.png";
 import image10 from "./assets/ico/git.png";
 
-import imageProj1 from "./assets/project/Leonardo0.jpg";
+import imagefilm0 from "./assets/project/film0.jpg";
+import imagefilm1 from "./assets/project/film1.jpg";
+import imagefilm2 from "./assets/project/film2.jpg";
 
 function App() {
   return (
@@ -43,7 +44,6 @@ function App() {
             </ul>
           </div>
           <div className='p-skills'>
-              {/* <PrintText sampleText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum tincidunt nulla, id semper mi cursus ac." style="font-size: 30px;"/> */}
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum tincidunt nulla, id semper mi cursus ac.</p>
           </div>
         </div>
@@ -52,16 +52,34 @@ function App() {
       <div id='work' className='flex'>
     <Product
         title="Socket market"
-        icon={<img className='image' src={imageProj1} alt="Product 1 Icon" />} 
-        description="Ready project of the online store"
+        icon={<img className='image' src={imagefilm0} alt="Product 1 Icon" />} 
+        blockIcons={
+          <div>
+            <img className='iconStek' src={image3} alt="javascript" />
+            <img className='iconStek' src={image4} alt="typescript" />
+            <img className='iconStek' src={image6} alt="electron" />
+          </div>
+        }
+        description=
+          "Stek: electron, javaSkript, typeSkript, jest"
+      
         descriptionMain="This project was generated with Angular CLI version 15.2.7."
         rating={4.5}
         recipeLink ="https://github.com/tromp86/online-shop-master" 
       />
           <Product
         title="Wacson"
-        icon={<img className='image' src={imageProj1} alt="Product 1 Icon" />} 
-        description="Ready project of the online store"
+        icon={<img className='image' src={imagefilm1} alt="Product 1 Icon" />} 
+        blockIcons={
+          <div>
+            <img className='iconStek' src={image3} alt="javascript" />
+            <img className='iconStek' src={image4} alt="typescript" />
+            <img className='iconStek' src={image6} alt="electron" />
+          </div>
+        }
+        description=
+          "Stek: electron, javaSkript, typeSkript, jest"
+      
         descriptionMain="Was generated with Angular CLI version 15.2.7."
         rating={6.5}
         recipeLink ="https://github.com/tromp86/online-shop-master" 

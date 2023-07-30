@@ -2,14 +2,14 @@ import React from "react";
 import "./product.css";
 
 function Product(props) {
-    const { title, icon, description, rating, recipeLink, descriptionMain } = props;
+    const { title, icon, description, rating, recipeLink, descriptionMain, blockIcons } = props;
   
     return (
       <div>
-        <h1>{title}</h1>
         <div className="card">
           <div className="icon">{icon}</div>
-          {/* <div className="title-card">{title}</div> */}
+          <div className="title-card">{title}</div>
+          <div className="blockIcons">{blockIcons}</div>
           <p className="description">{description}</p>
           <span className="descriptionMain">{descriptionMain}</span>
           <div className="rating">{rating}</div>
