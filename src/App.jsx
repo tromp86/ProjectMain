@@ -1,6 +1,7 @@
 import React from 'react'
 import MiddleComponent from './stayProps/MiddleComponent'
 import Product from './Product.jsx'
+import Slideshow from './stayProps/Slideshow.jsx'
 import './index.css'
 
 import imagezero from "./assets/ico/html.png";
@@ -50,9 +51,11 @@ function App() {
       </div>
 
       <div id='work' className='flex'>
+      {/* <Slideshow /> */}
     <Product
         title="Socket market"
-        icon={<img className='image' src={imagefilm0} alt="Product 1 Icon" />} 
+        // icon={<img className='image' src={imagefilm0} alt="Product 1 Icon" />} 
+        icon={<Slideshow />} 
         blockIcons={
           <div>
             <img className='iconStek' src={image3} alt="javascript" />
@@ -85,7 +88,6 @@ function App() {
         recipeLink ="https://github.com/tromp86/online-shop-master" 
       />
     </div>
-
     </div>
   );
 };
