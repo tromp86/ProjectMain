@@ -1,6 +1,5 @@
 {
   "name": "vite-project",
-  "homepage": "https://tromp86.github.io/ProjectMain/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,9 +7,7 @@
     "build": "vite build",
     "buildReact": "react-scripts build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "dom": "^0.0.3",
