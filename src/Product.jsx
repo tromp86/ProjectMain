@@ -13,7 +13,7 @@ function Product(props) {
           <p className="description">{description}</p>
           <span className="descriptionMain">{descriptionMain}</span>
           <div className="rating">{rating}</div>
-          <a href={recipeLink} className="link">See the recipe</a>
+          <a href={recipeLink} className="link">see in the github</a>
         </div>
       </div>
     );

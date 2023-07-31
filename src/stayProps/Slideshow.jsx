@@ -1,33 +1,28 @@
 import React, { useState } from "react";
+import "../product.css";
 
-import imagefilm0 from "../assets/project/film0.jpg";
-import imagefilm1 from "../assets/project/film1.jpg";
-import imagefilm2 from "../assets/project/film2.jpg";
-
-function Slideshow() {
-  const images = [
-    imagefilm0,
-    imagefilm1,
-    imagefilm2,
-  ];
-
+function Slideshow({ icon }) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const nextSlide = () => {
-    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % icon.length);
   };
 
   const prevSlide = () => {
     setCurrentImageIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+      prevIndex === 0 ? icon.length - 1 : prevIndex - 1
     );
   };
 
   return (
-    <div>
-      <img className='image' src={images[currentImageIndex]} alt={`Slide ${currentImageIndex}`} />
-      <button onClick={prevSlide}>Попередній слайд</button>
-      <button onClick={nextSlide}>Наступний слайд</button>
+    <div className="slideshow-container">
+      <img
+        className="image"
+        src={icon[currentImageIndex]}
+        alt={`Slide ${currentImageIndex}`}
+      />
+      <button className="prev" onClick={prevSlide}>◀</button>
+      <button className="next" onClick={nextSlide}>▶</button>
     </div>
   );
 }

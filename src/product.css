@@ -39,7 +39,7 @@
   box-shadow: 8px 8px 0 var(--cardShadow);
   transition: box-shadow 0.5s, transform 0.5s;
   border-radius: 8px;
-  margin: 20px;
+  margin: 40px;
 }
 p{
   padding-left: 15px;
@@ -53,11 +53,6 @@ p{
   box-shadow: 16px 16px 0 var(--cardShadowHover);
 }
 
-.card:active {
-  transform: translate(-2px, -4px);
-  border: 2px solid var(--cardBorderActive);
-  box-shadow: 4px 4px 0 var(--cardShadowActive);
-}
 
 .card > .description {
   line-height: 1.9em;
@@ -80,7 +75,7 @@ p{
 }
 
 .iconStek{
-  width: 40px;
+  width: 30px;
   padding: 5px;
 }
 
@@ -98,11 +93,20 @@ p{
   font-weight: bold;
   width: max-content;
 }
+.card > a:hover {
+  color: #202125;
+}
 .link {
   position: absolute;
   bottom: 10px;
   left: 10px;
   margin: auto;
+}
+
+.link:active {
+  transform: translate(-2px, -4px);
+  border: 2px solid var(--cardBorderActive);
+  box-shadow: 4px 4px 0 var(--cardShadowActive);
 }
 
 @media (max-width: 768px) {
@@ -130,4 +134,37 @@ p{
   #portfolio div h1 {
     margin-left: 20px;
   }
+}
+/* Slideshow */
+.slideshow-container {
+  position: relative;
+}
+
+.image {
+  width: 100%; 
+  height: auto;
+  display: block; 
+}
+
+.prev,
+.next {
+  position: absolute; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  padding: 10px 15px; 
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  cursor: pointer; 
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.prev {
+  left: 10px;
+}
+.next {
+  right: 10px;
 }
