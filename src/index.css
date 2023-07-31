@@ -103,6 +103,22 @@ a:hover {
   position: absolute;
   left: 0;
 }
+.animate-class{
+  animation-name: myAnimation;
+  animation-duration: 2s;
+}
+
+@keyframes myAnimation {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 #portfolio {
   width: 100%;
   padding: 4% 0%;
@@ -134,9 +150,9 @@ a:hover {
   font-family: "Comfortaa", cursive;
 }
 
-#footer {
-  width: 100%;
-  padding: 10vh 0px;
+.footer {
+  width: 40px;
+  padding: 10px;
   text-align: center;
   font-weight: bold;
 }
@@ -228,8 +244,8 @@ button:focus {
   font-size: 24px;
 }
 .skills-list img {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 }
 
 @media (max-width: 768px) {
@@ -271,3 +287,4 @@ button:focus {
 @media (min-width: 1025px) {
 
 } */
+

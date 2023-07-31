@@ -22,7 +22,7 @@
     --linkColor: #8ab4f8;
   }
 }
-.flex{
+.flex {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -31,17 +31,20 @@
 .card {
   position: relative;
   width: 400px;
-  height: 540px;
+  height: 590px;
   background: var(--background);
   color: var(--textColor);
   border: 1px solid var(--cardBorder);
-  padding: 25px;
+
   box-shadow: 8px 8px 0 var(--cardShadow);
   transition: box-shadow 0.5s, transform 0.5s;
   border-radius: 8px;
   margin: 40px;
 }
-p{
+.card-pading {
+  padding: 25px;
+}
+p {
   padding-left: 15px;
   padding-right: 20px;
   margin-left: 0px;
@@ -53,28 +56,27 @@ p{
   box-shadow: 16px 16px 0 var(--cardShadowHover);
 }
 
-
-.card > .description {
+.card-pading > .description {
   line-height: 1.9em;
   font-size: 1.1rem;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.card > .descriptionMain {
+.card-pading > .descriptionMain {
   line-height: 2.5em;
   font-size: 1.2rem;
   color: #3c4043;
 }
-.card > .title-card {
+.card-pading > .title-card {
   font-size: 30px;
   color: #ff416c;
 }
 
-.card > .icon {
+.card-pading > .icon {
   font-size: 3em;
   text-align: center;
 }
 
-.iconStek{
+.iconStek {
   width: 30px;
   padding: 5px;
 }
@@ -86,14 +88,14 @@ p{
   position: absolute;
   bottom: 30px;
 }
-.card > .rating {
+.card-pading > .rating {
   font-size: 1.5em;
   margin-bottom: 0.8em;
   color: var(--ratingColor);
   font-weight: bold;
   width: max-content;
 }
-.card > a:hover {
+.card-pading > a:hover {
   color: #202125;
 }
 .link {
@@ -141,21 +143,21 @@ p{
 }
 
 .image {
-  width: 100%; 
+  width: 100%;
   height: auto;
-  display: block; 
+  display: block;
 }
 
 .prev,
 .next {
-  position: absolute; 
-  top: 50%; 
-  transform: translateY(-50%); 
-  padding: 10px 15px; 
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px 15px;
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
   border: none;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .prev:hover,

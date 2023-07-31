@@ -1,5 +1,6 @@
 import React from 'react'
 import MiddleComponent from './stayProps/MiddleComponent'
+import PortfolioEfect from './stayProps/PortfolioEfect'
 import Product from './Product.jsx'
 import Slideshow from './stayProps/Slideshow.jsx'
 import './index.css'
@@ -41,7 +42,9 @@ function App() {
   const imagesWaxom = [imageWaxom0, imageWaxom1, imageWaxom2, imageWaxom3];
   return (
     <div>
+      
       <MiddleComponent />
+      <PortfolioEfect />
       <div id="portfolio">
         <div id="skills">
           <h1>Skills.</h1>
