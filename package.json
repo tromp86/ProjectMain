@@ -1,6 +1,5 @@
 {
   "name": "vite-project",
-  "private": true,
   "homepage": "https://tromp86.github.io/ProjectMain/",
   "version": "0.0.0",
   "type": "module",
