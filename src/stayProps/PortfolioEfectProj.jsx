@@ -1,7 +1,7 @@
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
 
-function PortfolioEfect(props) {
+function PortfolioEfectProj(props) {
   const { text } = props;
   const [inViewRef, inView] = useInView({
     triggerOnce: false, 
@@ -9,7 +9,7 @@ function PortfolioEfect(props) {
   });
 
   const handleIntersection = (isVisible) => {
-    const h1 = document.getElementById('h1');
+    const h1 = document.getElementById('h2');
     if (h1) {
       if (isVisible) {
         console.log('Елемент став видимим!');
@@ -29,9 +29,9 @@ function PortfolioEfect(props) {
 
   return (
     <div ref={inViewRef}>
-      <h1 id='h1' className='categoryH1'>{ text }</h1>
+      <h1 id='h2' className='categoryH1'>{ text }</h1>
     </div>
   );
 }
 
-export default PortfolioEfect;
+export default PortfolioEfectProj;

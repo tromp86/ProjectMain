@@ -18,6 +18,20 @@ a {
   font-size: 3.8rem;
   letter-spacing: 4px;
 }
+.categoryH1{
+  position: relative;
+  opacity: 0;
+  transition: 1s ease-in;
+  padding: 10px;
+  color: #ff416c;
+  font-size: 50px;
+}
+
+.h1animation{
+  transform: translateX(70px);
+  opacity: 1;
+}
+
 .letter:first-child {
   font-weight: 900;
   font-size: 4.5rem;
