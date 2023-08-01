@@ -6,6 +6,7 @@ import PortfolioEfectContent from './stayProps/PortfolioEfectContent'
 import Rating from './stayProps/components/Rating'
 import Product from './Product.jsx'
 import Slideshow from './stayProps/Slideshow.jsx'
+import Footer from './Footer.jsx'
 import './index.css'
 
 import imagezero from "./assets/ico/html.png";
@@ -136,6 +137,9 @@ function App() {
         recipeLink ="https://github.com/tromp86/waxom-tromp86-original" 
       />
 
+    </div>
+    <div id='contact'>
+    <Footer />
     </div>
     </div>
   );
