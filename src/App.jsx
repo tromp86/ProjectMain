@@ -3,6 +3,7 @@ import MiddleComponent from './stayProps/MiddleComponent'
 import PortfolioEfect from './stayProps/PortfolioEfect'
 import PortfolioEfectProj from './stayProps/PortfolioEfectProj'
 import PortfolioEfectContent from './stayProps/PortfolioEfectContent'
+import Rating from './stayProps/components/Rating'
 import Product from './Product.jsx'
 import Slideshow from './stayProps/Slideshow.jsx'
 import './index.css'
@@ -48,6 +49,7 @@ function App() {
       <MiddleComponent />
       <PortfolioEfect id="h1" text="Skills."/>
       <PortfolioEfectContent/>
+      
       <div id="skills">
       <div id="portfolio">  
           <div className="skills-block">
@@ -66,6 +68,7 @@ function App() {
               <li><img src={image10} alt="HTML" />git</li>
             </ul>
           </div>
+          <Rating/>
           <div className='p-skills'>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum tincidunt nulla, id semper mi cursus ac.</p>
           </div>

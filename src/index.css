@@ -8,7 +8,16 @@
   overflow-x: hidden;
   height: 100vh;
 }
-
+body,
+html {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+  color: #252c3b;
+  background: rgb(236, 237, 239);
+  scroll-behavior: smooth;
+}
 a {
   font-weight: 500;
   text-decoration: none;
@@ -56,17 +65,6 @@ a {
   font-weight: 900;
   font-size: 4.5rem;
   margin-bottom: 50px;
-}
-
-body,
-html {
-  padding: 0px;
-  margin: 0px;
-  font-family: "Comfortaa", cursive;
-  font-weight: bold;
-  color: #252c3b;
-  background: rgb(236, 237, 239);
-  scroll-behavior: smooth;
 }
 
 #header {
@@ -151,18 +149,18 @@ a:hover {
 }
 #portfolio {
   width: 100%;
-  padding: 4% 0%;
+  padding: 2% 0%;
   color: #ff416c;
   font-size: 25px;
   margin-left: 10px;
 }
 .content{
-  background: linear-gradient(to right, #ced8ff, #ffdede, #fff2d9);
+  background: linear-gradient(to right, #ced8ff, #ffcccc, #fff2d9);
   background-size: 100%;
   transition: 2s ease-in-out;
 }
 .contentAdd{
-  background: linear-gradient(to right, #ced8ff, #ffdede, #ffeac3);
+  background: linear-gradient(to right, #ced8ff, #ffcccc, #fff2d9);
   background-size: 350%;
 }
 .p-skills {
