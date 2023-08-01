@@ -13,7 +13,9 @@ function PortfolioEfect(props) {
     if (h1) {
       if (isVisible) {
         console.log('Елемент став видимим!');
+        setTimeout(() => {
         h1.style.color = "#ff416c";
+      }, 1000);
         h1.classList.add("h1animation");
       } else {
         console.log('Елемент став невидимим!');

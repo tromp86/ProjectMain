@@ -2,6 +2,7 @@ import React from 'react'
 import MiddleComponent from './stayProps/MiddleComponent'
 import PortfolioEfect from './stayProps/PortfolioEfect'
 import PortfolioEfectProj from './stayProps/PortfolioEfectProj'
+import PortfolioEfectContent from './stayProps/PortfolioEfectContent'
 import Product from './Product.jsx'
 import Slideshow from './stayProps/Slideshow.jsx'
 import './index.css'
@@ -36,18 +37,17 @@ import imageWaxom1 from "./assets/project/waxom1.jpg";
 import imageWaxom2 from "./assets/project/waxom2.jpg";
 import imageWaxom3 from "./assets/project/waxom3.jpg";
 
-const words = ['hello', 'world', 'react', 'web']; 
-
 function App() {
   const imagesMarket = [imageMarket0, imageMarket1, imageMarket2, imageMarket3,
     imageMarket4, imageMarket5, imageMarket6, imageMarket7];
   const imagesFilm = [imageFilm0, imageFilm1, imageFilm2];
   const imagesWaxom = [imageWaxom0, imageWaxom1, imageWaxom2, imageWaxom3];
   return (
-    <div>
+    <div id='content' className='content'>
       
       <MiddleComponent />
       <PortfolioEfect id="h1" text="Skills."/>
+      <PortfolioEfectContent/>
       <div id="skills">
       <div id="portfolio">  
           <div className="skills-block">
