@@ -21,6 +21,9 @@ import image7 from "./assets/ico/npm.png";
 import image8 from "./assets/ico/webpack.png";
 import image9 from "./assets/ico/mongo.png";
 import image10 from "./assets/ico/git.png";
+import image11 from "./assets/ico/bootstrap.png";
+import image12 from "./assets/ico/tailwind.png";
+import image13 from "./assets/ico/material.png";
 
 
 import imageMarket0 from "./assets/project/market0.jpg";
@@ -67,6 +70,9 @@ function App() {
               <li><img src={image8} alt="HTML" />webpack</li>
               <li><img src={image9} alt="HTML" />mongoDB</li>
               <li><img src={image10} alt="HTML" />git</li>
+              <li><img src={image11} alt="HTML" />bootstrap</li>
+              <li><img src={image12} alt="HTML" />tailwind</li>
+              <li><img src={image13} alt="HTML" />material</li>
             </ul>
           </div>
           <Rating/>
