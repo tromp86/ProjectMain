@@ -35,10 +35,9 @@
   background: var(--background);
   color: var(--textColor);
   border: 1px solid var(--cardBorder);
-
   box-shadow: 8px 8px 0 var(--cardShadow);
   transition: box-shadow 0.5s, transform 0.5s;
-  border-radius: 8px;
+  border-radius: 20px;
   margin: 40px;
 }
 .card-pading {
@@ -83,6 +82,10 @@ p {
 
 .image {
   width: 380px;
+  border-radius: 0px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow:  13px 13px 26px #c8c8c8,
+               -13px -13px 26px #ffffff1e;
 }
 .rating {
   position: absolute;
