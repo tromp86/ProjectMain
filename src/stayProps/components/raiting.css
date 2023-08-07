@@ -6,11 +6,13 @@
 }
 
 .heading {
-  font-size: 30px;
+  font-size: 1.9rem;
   margin-right: 25px;
 }
 .heading2{
   color: black;
+  font-weight: 800;
+  margin-right: 11px;
 }
 .row{
   color: #e44167;

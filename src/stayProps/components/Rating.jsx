@@ -13,7 +13,7 @@ const Rating = () => {
   <div className="container-raiting">
     <span className="heading">My develop rating</span>
     <span className="heading2">but</span>
-    <span> I need 5 star</span>
+    <span className="heading"> I need 5 star</span>
 <div className="star-rating">
   {[1, 2, 3, 4, 5].map((value) => (
     <span

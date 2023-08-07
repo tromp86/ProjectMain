@@ -6,7 +6,7 @@ function Product(props) {
   
     return (
       <div>
-        <div className="card">
+        <div className="card flip-2-ver-left-fwd">
           <div className="icon">{icon}</div>
           <div className="card-pading">
           <div className="title-card">{title}</div>

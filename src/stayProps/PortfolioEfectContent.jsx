@@ -1,8 +1,7 @@
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
 
-function PortfolioEfectContent(props) {
-  const { text } = props;
+function PortfolioEfectContent() {
   const [inViewRef, inView] = useInView({
     triggerOnce: false, 
     threshold: 1,
