@@ -16,7 +16,7 @@ function Footer() {
             <h3>About</h3>
             <p><i>CODE WANTS TO BE SIMPLE</i></p>
             <p className="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
-         <a href="#">Tromp86</a>
+         <a href="#">GitHub</a>
             </p>
           </div>
 <img className='img-logo' src={imageTromp86}></img>
