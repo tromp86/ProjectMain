@@ -17,6 +17,7 @@ html {
   color: #252c3b;
   background: rgb(236, 237, 239);
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 a {
   font-weight: 500;
@@ -67,7 +68,9 @@ a {
   font-size: 4.5rem;
   margin-bottom: 50px;
 }
-
+.bar1, .bar2, .bar3 {
+  display: none;
+}
 #header {
   width: 100%;
   text-align: center;
@@ -281,24 +284,73 @@ button:focus {
 li{
   list-style-type: none;
 }
+/* mobile */
+.containerMobile {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
 
+.bar1, .bar2, .bar3 {
+  width: 55px;
+  height: 10px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+  display: block;
+}
 
+.change .bar1 {
+  transform: translate(0, 16px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -16px) rotate(45deg);
+}
+.mobile-container {
+  margin: auto;
+  display: none;
+  padding-left: 30px;
+  transform: translateX(-20px);
+  color: white;
+  overflow: hidden;
+}
+.mobile-container.show {
+  width: 130%;
+  display: block;
+  background-color: #333;
+  border-radius: 0 35px 35px 0;
+}
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2.5rem;
+  display: block;
+  padding: 15px;
+  background-color: #333;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
 @media (max-width: 768px) {
   #middle {
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(
-      0deg,
-      rgba(69, 55, 50, 0.773),
-      rgba(33, 24, 24, 0)
-    );
-    background-size: 200%;
+    background-size: 400%;  
     color: white;
     display: flex;
     justify-content: center;
     flex-direction: column;
     transition: 1s ease-in-out;
     padding-top: 20vh;
+  }
+  .h1 {
+    transform: translate(-10px, 60px);
   }
   #tagline {
     position: relative;
@@ -313,12 +365,8 @@ li{
     position: absolute;
     transition: 0.6s ease-in-out;
   }
+  .skills-list {
+    margin-right: 15px;
+  }
 }
 
-/* @media (min-width: 769px) and (max-width: 1024px) {
-
-}
-
-@media (min-width: 1025px) {
-
-} */

@@ -87,4 +87,15 @@ a.facebook:hover {
     margin-right: 0;
     font-weight: 600;
   }
+  .footer {
+    height: 100%;
+  }
+  .social-icons li {
+    margin-bottom: 8px;
+  }
+  .row{
+    position: relative;
+    bottom: -20px;
+    font-size: 1rem;
+  }
 }

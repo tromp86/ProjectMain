@@ -53,7 +53,7 @@ function App() {
       <MiddleComponent />
       <PortfolioEfect id="h1" text="Skills."/>
       <PortfolioEfectContent/>
-      
+
       <div id="skills">
       <div id="portfolio">  
           <div className="skills-block">

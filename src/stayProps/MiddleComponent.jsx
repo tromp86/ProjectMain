@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
-import AppButton from './AppButton'
-import '../index.css'
+import AppButton from "./AppButton";
+import MenuIcon from "./MenuIcon.jsx";
+import "../index.css";
 
 const MiddleComponent = () => {
   const [width, setWidth] = useState(
@@ -42,21 +43,39 @@ const MiddleComponent = () => {
     }
   }, [width, scrollPosition]);
 
-  return <div id="middle">      
-<div id="header" className="animated slideInDown" style={{ animationDelay: '0.8s' }}>
-      <AppButton />
-        <div className='header-links'>
-          <a className="links" href="#skills">skills</a>
-          <a className="links" href="#work">works</a>
-          <a className="links" href="#contact">contact</a>
+  return (
+    <div id="middle">
+      <div
+        id="header"
+        className="animated slideInDown"
+        style={{ animationDelay: "0.8s" }}
+      >
+        <AppButton />
+        <div className="header-links">
+          <a className="links" href="#skills">
+            skills
+          </a>
+          <a className="links" href="#work">
+            works
+          </a>
+          <a className="links" href="#contact">
+            contact
+          </a>
         </div>
       </div>
+      <MenuIcon />
       <center>
-          <div id="tagline" className="animated zoomIn" style={{ animationDelay: '0.8s' }}>
-            if you're reading this, that means you can read<br />
-          </div>
+        <div
+          id="tagline"
+          className="animated zoomIn"
+          style={{ animationDelay: "0.8s" }}
+        >
+          if you're reading this, that means you can read
+          <br />
+        </div>
       </center>
-  </div>
+    </div>
+  );
 };
 
 export default MiddleComponent;
