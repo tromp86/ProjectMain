@@ -12,13 +12,13 @@ function PortfolioEfect(props) {
     const h1 = document.getElementById('h1');
     if (h1) {
       if (isVisible) {
-        console.log('Елемент став видимим!');
+        // console.log('Елемент став видимим!');
         setTimeout(() => {
         h1.style.color = "#ff416c";
       }, 1000);
         h1.classList.add("h1animation");
       } else {
-        console.log('Елемент став невидимим!');
+        // console.log('Елемент став невидимим!');
         h1.style.color = "silver";
         h1.classList.remove("h1animation");
       }

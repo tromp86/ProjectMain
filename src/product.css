@@ -31,13 +31,15 @@
 .card {
   position: relative;
   width: 400px;
-  height: 590px;
+  /* height: 520px; */
+  /* height: calc(100% - 60px); */
+
   background: var(--background);
   color: var(--textColor);
   border: 1px solid var(--cardBorder);
   box-shadow: 8px 8px 0 var(--cardShadow);
-  transition: box-shadow 0.5s, transform 0.5s;
-  border-radius: 20px;
+  transition: box-shadow 0.5s, transform 0.5s, height 1.3s ease;
+  border-radius: 0 0 20px 20px ;
   margin: 40px;
 }
 .card-pading {
@@ -50,15 +52,22 @@ p {
   margin-right: 10px;
   text-align: center;
 }
-/* .card:hover {
-  transform: translate(-2px, -4px);
-  box-shadow: 16px 16px 0 var(--cardShadowHover);
-} */
+
+.textLeft{
+  text-align: left;
+  transform: translateY(-20px);
+}
+
+.card:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: none
+}
 
 .card-pading > .description {
   line-height: 1.9em;
   font-size: 1.1rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 70px;
 }
 .card-pading > .descriptionMain {
   line-height: 2.5em;
@@ -189,22 +198,16 @@ p {
   background-color: #eee;
   color: #444;
   cursor: pointer;
-  padding: 18px;
+  padding: 4px;
   width: 100%;
   text-align: left;
   border: none;
   outline: none;
-  transition: 0.4s;
+  transition: 1.4s;
+  transform: translateY(-20px);
 }
 
-.active, .accordion:hover {
+.accordion:hover {
   background-color: #ccc;
-}
-
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
 }
 

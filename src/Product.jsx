@@ -22,7 +22,7 @@ function Product(props) {
           <div className="blockIcons">{blockIcons}</div>
           <p className="description">{description}</p>
           {/* <span className="descriptionMain">{descriptionMain}</span> */}
-          <Accordion title="descriptionMain" content={descriptionMain} />
+          <Accordion title={title} content={descriptionMain} />
           <div className="rating">{rating}</div>
           <a href={recipeLink} className="link">
             see in the github

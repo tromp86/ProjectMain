@@ -100,7 +100,7 @@ function App() {
         description=
           "Stek: angular, javaSkript, typeSkript, nodeJs, npm, mongoDB, git"
       
-        descriptionMain="This project was generated with Angular CLI version 15.2.7."
+        descriptionMain="This project was generated with Angular CLI version 15.2.7. lorem project was generated with generated stop picnik 1000 This project was generated with Angular CLI version 15.2.7. lorem project was generated with generated stop picnik 1000"
         rating={9.8}
         recipeLink ="https://github.com/titaniym21/online-shop" 
       />
@@ -137,7 +137,6 @@ function App() {
         }
         description=
           "Stek: HTML, css, git"
-      
         descriptionMain="Was generated with Angular CLI version 15.2.7."
         rating={9.5}
         recipeLink ="https://github.com/tromp86/waxom-tromp86-original" 
