@@ -77,7 +77,7 @@ function App() {
           </div>
           <Rating/>
           <div className='p-skills'>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum tincidunt nulla, id semper mi cursus ac.</p>
+              <p>Hello! My name is Vladyslav and I am a web developer with a strong passion for creativity and innovation. My passion for web technologies and desire to always improve helps me to create responsive and effective solutions. I have many small works-projects on various topics, I know how to work in a team, my biggest projects are written in teamwork</p>
           </div>
         </div>
       </div>
