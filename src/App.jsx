@@ -35,8 +35,13 @@ import imageMarket5 from "./assets/project/market5.jpg";
 import imageMarket6 from "./assets/project/market6.jpg";
 import imageMarket7 from "./assets/project/market7.jpg";
 import imageFilm0 from "./assets/project/film0.jpg";
+import imageFilm3 from "./assets/project/film3.jpg";
+import imageFilm4 from "./assets/project/film4.jpg";
 import imageFilm1 from "./assets/project/film1.jpg";
 import imageFilm2 from "./assets/project/film2.jpg";
+import imageFilm5 from "./assets/project/film5.jpg";
+import imageFilm6 from "./assets/project/film6.jpg";
+import imageFilm7 from "./assets/project/film7.jpg";
 import imageWaxom0 from "./assets/project/waxom0.jpg";
 import imageWaxom1 from "./assets/project/waxom1.jpg";
 import imageWaxom2 from "./assets/project/waxom2.jpg";
@@ -45,7 +50,7 @@ import imageWaxom3 from "./assets/project/waxom3.jpg";
 function App() {
   const imagesMarket = [imageMarket0, imageMarket1, imageMarket2, imageMarket3,
     imageMarket4, imageMarket5, imageMarket6, imageMarket7];
-  const imagesFilm = [imageFilm0, imageFilm1, imageFilm2];
+  const imagesFilm = [imageFilm0, imageFilm3, imageFilm4, imageFilm5, imageFilm1, imageFilm2, imageFilm6, imageFilm7];
   const imagesWaxom = [imageWaxom0, imageWaxom1, imageWaxom2, imageWaxom3];
   return (
     <div id='content' className='content'>
@@ -77,7 +82,7 @@ function App() {
           </div>
           <Rating/>
           <div className='p-skills'>
-              <p>Hello! My name is Vladyslav and I am a web developer with a strong passion for creativity and innovation. My passion for web technologies and desire to always improve helps me to create responsive and effective solutions. I have many small works-projects on various topics, I know how to work in a team, my biggest projects are written in teamwork</p>
+              <p><b style={{ color: "#ff416c", fontSize: "2rem" }}>Hello!</b> My name is Vladyslav and I am a web developer with a strong passion for creativity and innovation. My passion for web technologies and desire to always improve helps me to create responsive and effective solutions. I have many small works-projects on various topics, I know how to work in a team, my biggest projects are written in teamwork</p>
           </div>
         </div>
       </div>
