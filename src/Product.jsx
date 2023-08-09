@@ -21,7 +21,6 @@ function Product(props) {
           <div className="title-card">{title}</div>
           <div className="blockIcons">{blockIcons}</div>
           <p className="description">{description}</p>
-          {/* <span className="descriptionMain">{descriptionMain}</span> */}
           <Accordion title={title} content={descriptionMain} />
           <div className="rating">{rating}</div>
           <a href={recipeLink} className="link">

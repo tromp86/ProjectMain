@@ -25,7 +25,6 @@ import image11 from "./assets/ico/bootstrap.png";
 import image12 from "./assets/ico/tailwind.png";
 import image13 from "./assets/ico/material.png";
 
-
 import imageMarket0 from "./assets/project/market0.jpg";
 import imageMarket1 from "./assets/project/market1.jpg";
 import imageMarket2 from "./assets/project/market2.jpg";
@@ -46,12 +45,20 @@ import imageWaxom0 from "./assets/project/waxom0.jpg";
 import imageWaxom1 from "./assets/project/waxom1.jpg";
 import imageWaxom2 from "./assets/project/waxom2.jpg";
 import imageWaxom3 from "./assets/project/waxom3.jpg";
+import imageSWC0 from "./assets/project/swc0.jpg";
+import imageSWC1 from "./assets/project/swc1.jpg";
+import imageSWC2 from "./assets/project/swc2.jpg";
+import imageSWC3 from "./assets/project/swc3.jpg";
+import imageSWC4 from "./assets/project/swc4.jpg";
+import imageSWC5 from "./assets/project/swc5.jpg";
+import imageSWC6 from "./assets/project/swc6.jpg";
 
 function App() {
   const imagesMarket = [imageMarket0, imageMarket1, imageMarket2, imageMarket3,
     imageMarket4, imageMarket5, imageMarket6, imageMarket7];
   const imagesFilm = [imageFilm0, imageFilm3, imageFilm4, imageFilm5, imageFilm1, imageFilm2, imageFilm6, imageFilm7];
   const imagesWaxom = [imageWaxom0, imageWaxom1, imageWaxom2, imageWaxom3];
+  const imagesSW = [imageSWC0, imageSWC1, imageSWC2, imageSWC3, imageSWC4, imageSWC5, imageSWC6];
   return (
     <div id='content' className='content'>
       
@@ -145,6 +152,24 @@ function App() {
         descriptionMain="Was generated with Angular CLI version 15.2.7."
         rating={9.5}
         recipeLink ="https://github.com/tromp86/waxom-tromp86-original" 
+      />
+
+<Product
+        title="StarWarsClicker"
+        icon={<Slideshow icon={imagesSW} />} 
+        blockIcons={
+          <div>
+            <img className='iconStek' src={imagezero} alt="HTML" />
+            <img className='iconStek' src={image0} alt="css" />
+            <img className='iconStek' src={image3} alt="javascript" />
+            <img className='iconStek' src={image10} alt="git" />
+          </div>
+        }
+        description=
+          "Stek: HTML, css, git, javaSkript"
+        descriptionMain="Was generated with Angular CLI version 15.2.7."
+        rating={9.8}
+        recipeLink ="https://tromp86.github.io/GameSW/" 
       />
 
     </div>
