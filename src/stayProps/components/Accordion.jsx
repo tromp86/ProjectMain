@@ -13,6 +13,7 @@ const Accordion = ({ title, content }) => {
     textOverflow: "ellipsis",
     maxHeight: 140,
     transition: 'height 1.3s ease', 
+    fontSize: '1.2rem'
   };
 
   const toggleAccordion = () => {

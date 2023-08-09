@@ -67,18 +67,24 @@ h3 {
 .social-icons a:active,
 .social-icons a:focus,
 .social-icons a:hover {
-  color: #fff;
   border-bottom: none;
 }
 
 a.facebook:hover {
   background-color: #3b5998;
+  color: #fff;
 }
 .social-icons a.telegram:hover {
   background-color: #00aced;
+  color: #fff;
 }
 .social-icons a.linkedin:hover {
   background-color: #007bb6;
+  color: #fff;
+}
+.social-icons a.gmail:hover {
+  background-color: #cb1515;
+  color: #fff;
 }
 @media (max-width: 767px) {
   .social-icons li.title {

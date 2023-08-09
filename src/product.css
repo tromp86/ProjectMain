@@ -71,7 +71,7 @@ p {
 }
 .card-pading > .descriptionMain {
   line-height: 2.5em;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: #3c4043;
 }
 .card-pading > .title-card {
@@ -91,6 +91,7 @@ p {
 
 .image {
   width: 380px;
+  /* height: 200px; */
   border-radius: 0px;
   background: linear-gradient(145deg, #cacaca, #f0f0f0);
   box-shadow:  13px 13px 26px #c8c8c8,
@@ -141,7 +142,8 @@ p {
 
 .image {
   width: 100%;
-  height: auto;
+  height: 210px;
+  /* height: auto; */
   display: block;
 }
 
@@ -179,6 +181,7 @@ p {
   outline: none;
   transition: 1.4s ease-in-out;
   transform: translateY(-20px);
+  font-size: 0.9rem;
 }
 
 .accordion:hover {

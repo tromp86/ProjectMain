@@ -24,6 +24,7 @@ import image10 from "./assets/ico/git.png";
 import image11 from "./assets/ico/bootstrap.png";
 import image12 from "./assets/ico/tailwind.png";
 import image13 from "./assets/ico/material.png";
+import image14 from "./assets/ico/canvas.png";
 
 import imageMarket0 from "./assets/project/market0.jpg";
 import imageMarket1 from "./assets/project/market1.jpg";
@@ -33,6 +34,9 @@ import imageMarket4 from "./assets/project/market4.jpg";
 import imageMarket5 from "./assets/project/market5.jpg";
 import imageMarket6 from "./assets/project/market6.jpg";
 import imageMarket7 from "./assets/project/market7.jpg";
+import imageMarket8 from "./assets/project/market0.gif";
+import imageMarket9 from "./assets/project/market1.gif";
+import imageMarket10 from "./assets/project/market2.gif";
 import imageFilm0 from "./assets/project/film0.jpg";
 import imageFilm3 from "./assets/project/film3.jpg";
 import imageFilm4 from "./assets/project/film4.jpg";
@@ -52,13 +56,19 @@ import imageSWC3 from "./assets/project/swc3.jpg";
 import imageSWC4 from "./assets/project/swc4.jpg";
 import imageSWC5 from "./assets/project/swc5.jpg";
 import imageSWC6 from "./assets/project/swc6.jpg";
+import imageBombGif from "./assets/project/bomb.gif";
+import imageBomb0 from "./assets/project/bomb0.jpg";
+import imageAngularClick0 from "./assets/project/angularClick0.jpg";
+import imageAngularClick from "./assets/project/angularClick.gif";
 
 function App() {
   const imagesMarket = [imageMarket0, imageMarket1, imageMarket2, imageMarket3,
-    imageMarket4, imageMarket5, imageMarket6, imageMarket7];
+    imageMarket4, imageMarket5, imageMarket6, imageMarket7, imageMarket8, imageMarket9, imageMarket10];
   const imagesFilm = [imageFilm0, imageFilm3, imageFilm4, imageFilm5, imageFilm1, imageFilm2, imageFilm6, imageFilm7];
   const imagesWaxom = [imageWaxom0, imageWaxom1, imageWaxom2, imageWaxom3];
   const imagesSW = [imageSWC0, imageSWC1, imageSWC2, imageSWC3, imageSWC4, imageSWC5, imageSWC6];
+  const imageBomb = [imageBomb0, imageBombGif];
+  const imageAngular = [imageAngularClick0, imageAngularClick];
   return (
     <div id='content' className='content'>
       
@@ -85,6 +95,7 @@ function App() {
               <li><img src={image11} alt="HTML" />bootstrap</li>
               <li><img src={image12} alt="HTML" />tailwind</li>
               <li><img src={image13} alt="HTML" />material</li>
+              <li><img src={image14} alt="HTML" />canvas</li>
             </ul>
           </div>
           <Rating/>
@@ -113,7 +124,7 @@ function App() {
           "Stek: angular, javaSkript, typeSkript, nodeJs, npm, mongoDB, git"
       
         descriptionMain="This project was generated with Angular CLI version 15.2.7. lorem project was generated with generated stop picnik 1000 This project was generated with Angular CLI version 15.2.7. lorem project was generated with generated stop picnik 1000"
-        rating={9.8}
+        rating={9.7}
         recipeLink ="https://github.com/titaniym21/online-shop" 
       />
     <Product
@@ -134,7 +145,7 @@ function App() {
           "Stek: javaSkript, typeSkript, nodeJs, npm, webpack, electron, jest, git"
       
         descriptionMain="This project was generated with Angular CLI version 15.2.7."
-        rating={8.5}
+        rating={9.4}
         recipeLink ="https://github.com/titaniym21/Film-app-js" 
       />
           <Product
@@ -150,8 +161,26 @@ function App() {
         description=
           "Stek: HTML, css, git"
         descriptionMain="Was generated with Angular CLI version 15.2.7."
-        rating={9.5}
+        rating={9.9}
         recipeLink ="https://github.com/tromp86/waxom-tromp86-original" 
+      />
+      <Product
+        title="clickAngular Events"
+        icon={<Slideshow icon={imageAngular} />} 
+        blockIcons={
+          <div>
+            <img className='iconStek' src={image1} alt="angular" />
+            <img className='iconStek' src={image4} alt="typescript" />
+            <img className='iconStek' src={image7} alt="npm" />
+            <img className='iconStek' src={image10} alt="git" />
+          </div>
+        }
+        description=
+          "Stek: angular, typeSkript, npm, git"
+      
+        descriptionMain="This project was generated with Angular CLI version 15.2.7. lorem project was generated with generated stop picnik 1000 This project was generated with Angular CLI version 15.2.7. lorem project was generated with generated stop picnik 1000"
+        rating={7.5}
+        recipeLink ="https://github.com/tromp86?tab=repositories" 
       />
 
 <Product
@@ -168,8 +197,26 @@ function App() {
         description=
           "Stek: HTML, css, git, javaSkript"
         descriptionMain="Was generated with Angular CLI version 15.2.7."
-        rating={9.8}
+        rating={8.8}
         recipeLink ="https://tromp86.github.io/GameSW/" 
+      />
+      <Product
+        title="BombGame"
+        icon={<Slideshow icon={imageBomb} />} 
+        blockIcons={
+          <div>
+            <img className='iconStek' src={imagezero} alt="HTML" />
+            <img className='iconStek' src={image0} alt="css" />
+            <img className='iconStek' src={image3} alt="javascript" />
+            <img className='iconStek' src={image10} alt="git" />
+            <img className='iconStek' src={image14} alt="canvas" />
+          </div>
+        }
+        description=
+          "Stek: HTML, css, git, javaSkript, canvas"
+        descriptionMain="Was generated with Angular CLI version 15.2.7."
+        rating={7.6}
+        recipeLink ="https://github.com/tromp86/BombGame" 
       />
 
     </div>
