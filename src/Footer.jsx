@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-
+// import FooterLogoEfect from "./stayProps/FooterLogoEfect.jsx";
 import imageTromp86 from './assets/ico/tromp86.png';
 function Footer() {
     return (
@@ -21,6 +21,7 @@ function Footer() {
             </p>
           </div>
 <img className='img-logo' src={imageTromp86}></img>
+{/* <FooterLogoEfect/> */}
       </div>
     )
 }

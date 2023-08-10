@@ -29,10 +29,14 @@ h3 {
   font-size: 18px;
 }
 .img-logo {
-  transform: translate(150px, 30px);
   width: 100px;
   background: whitesmoke;
   border-radius: 50%;
+  position: relative;
+  top: 25px;
+  right: 0px;
+  opacity: 1;
+  transition: transform 0.5s ease-in-out;
 }
 .social-icons {
   padding-left: 0;
@@ -86,6 +90,7 @@ a.facebook:hover {
   background-color: #cb1515;
   color: #fff;
 }
+
 @media (max-width: 767px) {
   .social-icons li.title {
     display: block;

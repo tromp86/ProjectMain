@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import AppButton from "./AppButton";
 import MenuIcon from "./MenuIcon.jsx";
+import HederEfect from "./HederEfect.jsx";
 import "../index.css";
 
 const MiddleComponent = () => {
@@ -64,15 +65,16 @@ const MiddleComponent = () => {
         </div>
       </div>
       <MenuIcon />
+      <HederEfect text="if you're reading this, that means you can read" />
       <center>
-        <div
+        {/* <div
           id="tagline"
           className="animated zoomIn"
           style={{ animationDelay: "0.8s" }}
         >
           if you're reading this, that means you can read
           <br />
-        </div>
+        </div> */}
       </center>
     </div>
   );

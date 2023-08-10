@@ -57,12 +57,30 @@ a {
   border-right: 15vw solid transparent;
 }
 
-
-.h1animation {
+#tagline {
+  font-size: 60px;
+  width: 70%;
+  position: absolute;
+  left: 30px;
+  animation: flicker 12.5s ease-in-out infinite;
+  transition: transform 1s ease-in-out, font 1s ease-in-out;
   transform: translateX(0px);
-  opacity: 1;
 }
-
+.h1animation {
+  transition: transform 1s ease-in-out;
+  transform: translateX(300px);
+}
+@keyframes flicker {
+  0% {
+    text-shadow: -13px 4px 5px rgba(0,0,0,0.6);
+  }
+  50% {
+    text-shadow: 13px 4px 5px rgba(0,0,0,0.6);
+  }
+  100% {
+    text-shadow: -13px 4px 5px rgba(0,0,0,0.6);
+  }
+}
 .letter:first-child {
   font-weight: 900;
   font-size: 4.5rem;
@@ -133,24 +151,7 @@ a:hover {
   transition: 1s ease-in-out;
   padding-top: 20vh;
 }
-#tagline {
-  font-size: 60px;
-  width: 70%;
-  position: absolute;
-  left: 0;
-  animation: flicker 12.5s ease-in-out infinite;
-}
-@keyframes flicker {
-  0% {
-    text-shadow: -13px 4px 5px rgba(0,0,0,0.6);
-  }
-  50% {
-    text-shadow: 13px 4px 5px rgba(0,0,0,0.6);
-  }
-  100% {
-    text-shadow: -13px 4px 5px rgba(0,0,0,0.6);
-  }
-}
+
 #portfolio {
   width: 100%;
   padding: 2% 0%;
