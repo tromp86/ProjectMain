@@ -114,8 +114,7 @@ a.facebook:hover {
   }
   .img-logo {
     position: relative;
-    bottom: 40px;
-    transform: translate(200px, 0px);
+    top: -50px;
   }
   p {
     font-size: 1.2rem;

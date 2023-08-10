@@ -65,7 +65,7 @@ const MiddleComponent = () => {
         </div>
       </div>
       <MenuIcon />
-      <HederEfect text="if you're reading this, that means you can read" />
+      <HederEfect text="A program that does not work usually does less harm than a program that works poorly." />
       <center>
         {/* <div
           id="tagline"

@@ -123,7 +123,7 @@ function App() {
         description=
           "Stek: angular, javaSkript, typeSkript, nodeJs, npm, mongoDB, git"
       
-        descriptionMain="This project was generated with Angular CLI version 15.2.7. lorem project was generated with generated stop picnik 1000 This project was generated with Angular CLI version 15.2.7. lorem project was generated with generated stop picnik 1000"
+        descriptionMain="This diploma project of an online grocery store. connected to Mongo DB built on Angular CLI version 15.2.7. and Express server. In the administrator's field, we can add and remove products from the database. Built-in Telegram bot. Very good project"
         rating={9.7}
         recipeLink ="https://github.com/titaniym21/online-shop" 
       />
@@ -144,7 +144,7 @@ function App() {
         description=
           "Stek: javaSkript, typeSkript, nodeJs, npm, webpack, electron, jest, git"
       
-        descriptionMain="This project was generated with Angular CLI version 15.2.7."
+        descriptionMain="The Hatflix project is a copy of the original portal made in JavaScript. Part of the code is made in TypeScript. User registration is available. The site is connected to a well-known IP, so new movies are guaranteed) good project"
         rating={9.4}
         recipeLink ="https://github.com/titaniym21/Film-app-js" 
       />
@@ -160,7 +160,7 @@ function App() {
         }
         description=
           "Stek: HTML, css, git"
-        descriptionMain="Was generated with Angular CLI version 15.2.7."
+        descriptionMain="Wacson is a landing page made on clean html and css, very good work + clean code"
         rating={9.9}
         recipeLink ="https://github.com/tromp86/waxom-tromp86-original" 
       />
@@ -178,7 +178,7 @@ function App() {
         description=
           "Stek: angular, typeSkript, npm, git"
       
-        descriptionMain="This project was generated with Angular CLI version 15.2.7. lorem project was generated with generated stop picnik 1000 This project was generated with Angular CLI version 15.2.7. lorem project was generated with generated stop picnik 1000"
+        descriptionMain="An interesting clicker game on Angular sharpened for speed, there are many levels. There is room to scale"
         rating={7.5}
         recipeLink ="https://github.com/tromp86?tab=repositories" 
       />
@@ -196,7 +196,7 @@ function App() {
         }
         description=
           "Stek: HTML, css, git, javaSkript"
-        descriptionMain="Was generated with Angular CLI version 15.2.7."
+        descriptionMain="Atmospheric game about star wars. My favorite! built on JavaScript, you have to play it"
         rating={8.8}
         recipeLink ="https://tromp86.github.io/GameSW/" 
       />
@@ -214,7 +214,7 @@ function App() {
         }
         description=
           "Stek: HTML, css, git, javaSkript, canvas"
-        descriptionMain="Was generated with Angular CLI version 15.2.7."
+        descriptionMain="Bomber game you need to detonate bombs by clicking the mouse on the field. flying bombs as in reality. Written on canvas"
         rating={7.6}
         recipeLink ="https://github.com/tromp86/BombGame" 
       />

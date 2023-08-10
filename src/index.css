@@ -67,8 +67,8 @@ a {
   transform: translateX(0px);
 }
 .h1animation {
-  transition: transform 1s ease-in-out;
-  transform: translateX(300px);
+  transform: translateX(0px);
+  opacity: 1;
 }
 @keyframes flicker {
   0% {
@@ -349,7 +349,7 @@ li{
   }
   #tagline {
     position: relative;
-    font-size: 2.4rem;
+    font-size: 2.5rem!important;
     top: 100px;
   }
   .links {

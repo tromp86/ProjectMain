@@ -6,14 +6,14 @@ import '../footer.css';
 function FooterLogoEfect() {
   const [inViewRef, inView] = useInView({
     triggerOnce: false,
-    threshold: 1,
+    threshold: 0.1,
   });
 
   const handleIntersection = (isVisible) => {
     const imageLogo = document.getElementById('logo');
     if (imageLogo) {
       if (isVisible) {
-        imageLogo.style.transform = 'translateX(0px)';
+        imageLogo.style.transform = 'translateX(100px)';
       } else {
         imageLogo.style.transform = 'translateX(300px)';
       }

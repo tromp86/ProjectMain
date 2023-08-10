@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
-// import FooterLogoEfect from "./stayProps/FooterLogoEfect.jsx";
-import imageTromp86 from './assets/ico/tromp86.png';
+import FooterLogoEfect from "./stayProps/FooterLogoEfect.jsx";
+
 function Footer() {
     return (
       <div className='footer'>
@@ -20,8 +20,8 @@ function Footer() {
          <a href="https://github.com/tromp86">GitHub</a>
             </p>
           </div>
-<img className='img-logo' src={imageTromp86}></img>
-{/* <FooterLogoEfect/> */}
+{/* <img className='img-logo' src={imageTromp86}></img> */}
+<FooterLogoEfect/>
       </div>
     )
 }

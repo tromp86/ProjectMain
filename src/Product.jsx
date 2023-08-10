@@ -19,9 +19,10 @@ function Product(props) {
         <div className="icon">{icon}</div>
         <div className="card-pading">
           <div className="title-card">{title}</div>
+          <Accordion title={title} content={descriptionMain} />
           <div className="blockIcons">{blockIcons}</div>
           <p className="description">{description}</p>
-          <Accordion title={title} content={descriptionMain} />
+          
           <div className="rating">{rating}</div>
           <a href={recipeLink} className="link">
             see in the github

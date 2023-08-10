@@ -171,17 +171,18 @@ p {
 }
 /* accordion */
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: #4ec4ff;
+  color: #ffffff;
   cursor: pointer;
-  padding: 4px;
-  width: 100%;
+  padding: 7px;
+  margin: 12px;
+  width: 94%;
   text-align: left;
   border: none;
   outline: none;
   transition: 1.4s ease-in-out;
-  transform: translateY(-20px);
-  font-size: 0.9rem;
+  transform: translateY(0px);
+  font-size: 1.0rem;
 }
 
 .accordion:hover {
