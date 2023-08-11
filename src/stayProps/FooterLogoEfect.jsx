@@ -13,9 +13,11 @@ function FooterLogoEfect() {
     const imageLogo = document.getElementById('logo');
     if (imageLogo) {
       if (isVisible) {
-        imageLogo.style.transform = 'translateX(100px)';
+        imageLogo.style.animation = 'bounce-in-right 0.9s both';
+        // imageLogo.style.transform = 'translateX(100px)';
       } else {
-        imageLogo.style.transform = 'translateX(300px)';
+        // imageLogo.style.transform = 'translateX(300px)';
+        imageLogo.style.animation = 'none';
       }
     }
   };

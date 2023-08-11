@@ -344,12 +344,12 @@ li{
     padding-top: 20vh;
   }
   .h1 {
-    transform: translate(5px, 60px);
+    transform: translate(-10px, 60px);
     font-size: 3.8rem;
   }
   #tagline {
     position: relative;
-    font-size: 2.5rem!important;
+    font-size: 2.0rem!important;
     top: 100px;
   }
   .links {
