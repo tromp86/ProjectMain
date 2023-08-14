@@ -11,7 +11,7 @@ function Footer() {
               <li><a className="facebook" href="https://www.facebook.com/profile.php?id=100015819224264" target='blank' ><i className="fa fa-facebook"></i></a></li>
               <li><a className="linkedin" href="https://www.linkedin.com/in/%D0%B2%D0%BB%D0%B0%D0%B4%D0%B8%D1%81%D0%BB%D0%B0%D0%B2-%D1%82%D0%BA%D0%B0%D1%87%D0%B5%D0%BD%D0%BA%D0%BE-07b125164/" target='blank' ><i className="fa fa-linkedin"></i></a></li>   
               <li><a className="telegram" href="https://t.me/tromp86" target='blank' ><i className="fa fa-telegram"></i></a></li>  
-              <li><a className="gmail" href="#" target='blank' ><i className="fa fa-google"></i></a></li>   
+              <li className="gmail"><a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=tromp1000@gmail.com" target='blank' ><i className="fa fa-google"></i></a></li>
             </ul>
             <div className="row">
             <h3>About</h3>
