@@ -171,10 +171,7 @@ a:hover {
 .p-skills {
   color: #000;
 }
-.flex {
-  display: flex;
-  background-color: #d9d9d9;
-}
+
 .flex::before {
   transform: skew(20deg, 2deg);
 }

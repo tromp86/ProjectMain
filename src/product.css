@@ -27,7 +27,31 @@
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 40px;
+  position: relative;
+  z-index: 1; /* Ensure the content appears above the background */
+
+  /* Adjusted background with 20% opacity */
+
 }
+
+/* Pseudo-element to cover the background with opacity */
+.flex::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150%;
+  height: 100%;
+  background:
+    linear-gradient(315deg, transparent 75%, #f7faff33 0) -10px 0,
+    linear-gradient(45deg, transparent 75%, #f0f6ff33 0) -10px 0,
+    linear-gradient(135deg, #dbe9ff33 50%, transparent 0) 0 0,
+    linear-gradient(45deg, #c7cbd233 50%, #b7b7b933 0) 0 0 #27272710;
+  background-size: 20px 20px;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
 .card {
   position: relative;
   width: 400px;
@@ -90,8 +114,8 @@ p {
   width: 380px;
   border-radius: 0px;
   background: linear-gradient(145deg, #cacaca, #f0f0f0);
-  box-shadow:  13px 13px 26px #c8c8c8,
-               -13px -13px 26px #ffffff1e;
+  /* box-shadow:  13px 13px 26px #c8c8c8,
+               -13px -13px 26px #ffffff1e; */
 }
 .rating {
   position: absolute;
