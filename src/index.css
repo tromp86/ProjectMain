@@ -120,6 +120,54 @@ a {
   color: #252c3b;
   font-size: 1.9rem;
 }
+.links:hover{
+  transition: 0.5s;
+  outline-offset: 0.2em;
+  border-radius: 50%;
+  animation: colorAnimat 0.5s both 0.2s;
+}
+@keyframes colorAnimat {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(3%);
+  }
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+ }
+ 
+ .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 4em;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0.253);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 0%;
+  left: 110%;
+ }
+ 
+ .tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent rgba(0, 0, 0, 0.253) transparent transparent;
+ }
+ 
+ .tooltip:hover .tooltiptext {
+  visibility: visible;
+ }
 .btn_one a {
   margin: 0px 30px;
   color: inherit;
@@ -166,7 +214,7 @@ a:hover {
 }
 .contentAdd{
   background: linear-gradient(to right, #ced8ff, #ffcccc, #fff2d9);
-  background-size: 350%;
+  background-size: 300%;
 }
 .p-skills {
   color: #000;

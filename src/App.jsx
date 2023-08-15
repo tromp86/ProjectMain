@@ -83,7 +83,7 @@ function App() {
               <li><img src={imagezero} alt="HTML" />html</li>
               <li><img src={image0} alt="HTML" />css</li>
               <li><img src={image1} alt="HTML" />angular</li>
-              <li><img src={image2}alt="HTML" />react</li>
+              <li><img src={image2} alt="HTML" />react</li>
               <li><img src={image3} alt="HTML" />javascript</li>
               <li><img src={image4} alt="HTML" />typescript</li>
               <li><img src={image5} alt="HTML" />nodeJs</li>

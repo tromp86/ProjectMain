@@ -4,6 +4,8 @@ import MenuIcon from "./MenuIcon.jsx";
 import HederEfect from "./HederEfect.jsx";
 import "../index.css";
 
+import dowload from "../assets/ico/dowload.png";
+
 const MiddleComponent = () => {
   const [width, setWidth] = useState(
     window.innerWidth ||
@@ -62,6 +64,8 @@ const MiddleComponent = () => {
           <a className="links" href="#contact">
             contact
           </a>
+          <a className="links tooltip" href="./src/assets/VladyslavTkachenko.rtf" download="VladyslavCV.rtf">
+            <img src={dowload} alt="dowload" width="50" height="50"/><span className="tooltiptext">dowload CV</span></a>
         </div>
       </div>
       <MenuIcon />
