@@ -110,11 +110,11 @@ h3 {
 .social-icons a {
   background-color: #eceeef;
   color: #818a91;
-  font-size: 27px;
+  font-size: 30px;
   display: inline-block;
-  line-height: 54px;
-  width: 54px;
-  height: 54px;
+  line-height: 53px;
+  width: 55px;
+  height: 55px;
   text-align: center;
   margin-right: 12px;
   border-radius: 100%;
@@ -136,6 +136,10 @@ a.facebook:hover {
 }
 .social-icons a.linkedin:hover {
   background-color: #007bb6;
+  color: #fff;
+}
+.social-icons a.whatsapp:hover {
+  background-color: #1fa855;
   color: #fff;
 }
 .social-icons a.gmail:hover {

@@ -25,6 +25,7 @@ import image11 from "./assets/ico/bootstrap.png";
 import image12 from "./assets/ico/tailwind.png";
 import image13 from "./assets/ico/material.png";
 import image14 from "./assets/ico/canvas.png";
+import image15 from "./assets/ico/figma.png";
 
 import imageMarket0 from "./assets/project/market0.jpg";
 import imageMarket1 from "./assets/project/market1.jpg";
@@ -92,6 +93,7 @@ function App() {
               <li><img src={image8} alt="HTML" />webpack</li>
               <li><img src={image9} alt="HTML" />mongoDB</li>
               <li><img src={image10} alt="HTML" />git</li>
+              <li><img src={image15} alt="HTML" />figma</li>
               <li><img src={image11} alt="HTML" />bootstrap</li>
               <li><img src={image12} alt="HTML" />tailwind</li>
               <li><img src={image13} alt="HTML" />material</li>
@@ -114,6 +116,7 @@ function App() {
             <img className='iconStek' src={image1} alt="angular" />
             <img className='iconStek' src={image3} alt="javascript" />
             <img className='iconStek' src={image4} alt="typescript" />
+            <img className='iconStek' src={image15} alt="figma" />
             <img className='iconStek' src={image5} alt="nodeJs" />
             <img className='iconStek' src={image7} alt="npm" />
             <img className='iconStek' src={image9} alt="mongoDB" />
@@ -165,7 +168,7 @@ function App() {
         recipeLink ="https://github.com/tromp86/waxom-tromp86-original" 
       />
       <Product
-        title="clickAngular Events"
+        title="Click Events"
         icon={<Slideshow icon={imageAngular} />} 
         blockIcons={
           <div>
@@ -184,7 +187,7 @@ function App() {
       />
 
 <Product
-        title="StarWarsClicker"
+        title="Star Wars Clicker"
         icon={<Slideshow icon={imagesSW} />} 
         blockIcons={
           <div>
@@ -201,7 +204,7 @@ function App() {
         recipeLink ="https://tromp86.github.io/GameSW/" 
       />
       <Product
-        title="BombGame"
+        title="Bomb Game"
         icon={<Slideshow icon={imageBomb} />} 
         blockIcons={
           <div>
