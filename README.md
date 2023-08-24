@@ -1,5 +1,5 @@
 <p align="center"> 
-    <img src="src/assets/tromp86.png" align="center"></img>
+    <img src="src/assets/tromp86.png" align="center" height="250"></img>
 </p>
 
 <h1 align="center">My Developer Portfolio 🔥 </h1>
