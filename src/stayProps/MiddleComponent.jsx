@@ -64,7 +64,7 @@ const MiddleComponent = () => {
           <a className="links" href="#contact">
             contact
           </a>
-          <a className="links tooltip" href="./src/assets/VladyslavTkachenko.rtf" download="VladyslavCV.rtf">
+          <a className="links tooltip" target="_blank" href="https://drive.google.com/file/d/1dlo82xM7s8LvPjHLU4IWhARAuFZqzJUk/view?usp=sharing" download="VladyslavCV.rtf">
             <img src={dowload} alt="dowload" width="50" height="50"/><span className="tooltiptext">dowload CV</span></a>
         </div>
       </div>
