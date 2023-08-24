@@ -152,7 +152,7 @@ function App() {
         recipeLink ="https://github.com/titaniym21/Film-app-js" 
       />
           <Product
-        title="Wacson"
+        title="Wacsom"
         icon={<Slideshow icon={imagesWaxom} />} 
         blockIcons={
           <div>
@@ -163,7 +163,7 @@ function App() {
         }
         description=
           "Stek: HTML, css, git"
-        descriptionMain="Wacson is a landing page made on clean html and css, very good work + clean code"
+        descriptionMain="Wacsom is a landing page made on clean html and css, very good work + clean code"
         rating={9.9}
         recipeLink ="https://github.com/tromp86/waxom-tromp86-original" 
       />
