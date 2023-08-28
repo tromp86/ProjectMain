@@ -4,6 +4,8 @@ import PortfolioEfect from './stayProps/PortfolioEfect'
 import PortfolioEfectProj from './stayProps/PortfolioEfectProj'
 import PortfolioEfectContent from './stayProps/PortfolioEfectContent'
 import Rating from './stayProps/components/Rating'
+import PortfolioEfectEduc from './stayProps/PortfolioEfectEduc'
+import Education from './stayProps/Education'
 import Product from './Product.jsx'
 import Slideshow from './stayProps/Slideshow.jsx'
 import Footer from './Footer.jsx'
@@ -106,6 +108,10 @@ function App() {
           </div>
         </div>
       </div>
+
+      <PortfolioEfectEduc id="h1" text="Education."/>
+      <Education />
+
       <PortfolioEfectProj id="h2" text="Project." />
       <div id='work' className='flex'>
       <Product

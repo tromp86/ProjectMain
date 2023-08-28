@@ -29,18 +29,16 @@
   margin-bottom: 40px;
   position: relative;
   z-index: 10;
-
-  /* Adjusted background with 20% opacity */
-  /* background:
+  background:
     linear-gradient(315deg, transparent 75%, #f7faff33 0) -10px 0,
     linear-gradient(45deg, transparent 75%, #f0f6ff33 0) -10px 0,
     linear-gradient(135deg, #dbe9ff33 50%, transparent 0) 0 0,
     linear-gradient(45deg, #c7cbd233 50%, #b7b7b933 0) 0 0 #27272710;
   background-size: 20px 20px;
-  background-attachment: fixed; */
+  background-attachment: fixed;
 }
 
-.flex::before {
+/* .flex::before {
   content: "";
   position: absolute;
   top: 0;
@@ -55,7 +53,7 @@
   background-size: 25px 25px;
   background-attachment: fixed;
   z-index: -1;
-}
+} */
 
 .card {
   position: relative;

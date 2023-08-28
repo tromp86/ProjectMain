@@ -32,15 +32,14 @@ a {
 .categoryH1 {
   position: relative;
   opacity: 0;
-  transition: 1s ease-in;
+  transition: 0.8s ease-in;
   padding: 0px;
   color: #ff416c;
-  font-size: 60px;
-  transform: translateX(-200px);
-  left: -140px;
+  font-size: 52px;
+  transform: translateX(-220px);
+  left: -150px;
   padding-left: 200px;
-  position: relative;
-  width: 258px;
+  width: 280px;
   background: whitesmoke;
   border-radius: 0 50px 50px 0;
   box-shadow: 10px 10px 25px -15px rgba(0,0,0,0.75);
@@ -55,6 +54,14 @@ a {
   height: 0;
   border-bottom: 100px solid whitesmoke;
   border-right: 15vw solid transparent;
+}
+.divEdMain {
+  transform: translateX(0px) scale(0.95);
+  transition: 1s ease-in;
+}
+
+.divEd {
+  transform: translateX(150px) scale(1);
 }
 
 #tagline {
@@ -206,6 +213,9 @@ a:hover {
   color: #ff416c;
   font-size: 25px;
   margin-left: 10px;
+}
+#divEd{
+  transition: 1s ease-in-out; 
 }
 .content{
   background: linear-gradient(to right, #ced8ff, #ffcccc, #fff2d9);
