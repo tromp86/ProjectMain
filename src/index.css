@@ -55,14 +55,77 @@ a {
   border-bottom: 100px solid whitesmoke;
   border-right: 15vw solid transparent;
 }
-.divEdMain {
-  transform: translateX(0px) scale(0.95);
-  transition: 1s ease-in;
+
+/* educ */
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-evenly;
+  background: linear-gradient(to right, #ced8ff, #ffcccc, #fff2d9);
+  background-size: 100%;
+  transition: 2s ease-in-out;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
-.divEd {
-  transform: translateX(150px) scale(1);
+.containerAdd {
+  background: linear-gradient(to right, #a8c7e2, #ffcccc, #fff2d9);
+  background-size: 200%;
+  transition: 0.5s ease-in;
+  border-bottom: #252c3b solid 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
+.contentEduc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+li{
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.divEdMain {
+  transform: translateX(-150px) scale(0.8);
+  justify-content: space-evenly;
+  transition: 1s ease-in;
+}
+.divEd {
+  justify-content: space-around;
+  transform: translateX(0px) scale(1);
+  z-index: 100;
+}
+.divEdMainRight{
+  transform: translateX(100px) scale(0.9);
+  justify-content: space-around;
+  transition: 1s ease-in;
+  opacity: 0;
+}
+
+.divEd1 {
+  transform: translateX(0px) scale(1);
+  justify-content: space-evenly;
+  transition: 1s ease-in;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
 
 #tagline {
   font-size: 60px;

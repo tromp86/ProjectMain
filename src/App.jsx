@@ -109,7 +109,7 @@ function App() {
         </div>
       </div>
 
-      <PortfolioEfectEduc id="h1" text="Education."/>
+      <PortfolioEfectEduc id="h3" text="Education."/>
       <Education />
 
       <PortfolioEfectProj id="h2" text="Project." />

@@ -9,7 +9,7 @@ function PortfolioEfectProj(props) {
   });
 
   const handleIntersection = (isVisible) => {
-    const h1 = document.getElementById('h2');
+    const h1 = document.getElementById('PortfolioEfectProj');
     if (h1) {
       if (isVisible) {
         // console.log('Елемент став видимим!');
@@ -31,7 +31,7 @@ function PortfolioEfectProj(props) {
 
   return (
     <div ref={inViewRef}>
-      <h1 id='h2' className='categoryH1'>{ text }</h1>
+      <h1 id='PortfolioEfectProj' className='categoryH1'>{ text }</h1>
     </div>
   );
 }

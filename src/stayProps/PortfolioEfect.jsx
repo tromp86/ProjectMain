@@ -9,7 +9,7 @@ function PortfolioEfect(props) {
   });
 
   const handleIntersection = (isVisible) => {
-    const h1 = document.getElementById('h1');
+    const h1 = document.getElementById('PortfolioEfect');
     if (h1) {
       if (isVisible) {
         setTimeout(() => {
@@ -29,7 +29,7 @@ function PortfolioEfect(props) {
 
   return (
     <div ref={inViewRef}>
-      <h1 id='h1' className='categoryH1'>{ text }</h1>
+      <h1 id='PortfolioEfect' className='categoryH1'>{ text }</h1>
     </div>
   );
 }
