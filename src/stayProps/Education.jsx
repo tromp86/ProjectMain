@@ -1,11 +1,12 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
-import imageDiploma from "../assets/diploma.jpg";
+import ImageDiploma from '../stayProps/components/ImageDiploma.jsx'
+// import imageDiploma from "../assets/diploma.jpg";
 
 function Education() {
   const [inViewRef, inView] = useInView({
     triggerOnce: false,
-    threshold: 0.5,
+    threshold: 0.4,
   });
 
   const handleIntersection = (isVisible) => {
@@ -49,7 +50,8 @@ function Education() {
     <div ref={inViewRef}>
       <div id="container" className="container">
         <div id="divEd" className="divEdMain">
-            <img src={imageDiploma} alt="Деякий опис" style={imageStyle} />
+          <ImageDiploma />
+            {/* <img src={imageDiploma} alt="Деякий опис" style={imageStyle} /> */}
           </div>
           <div id="divEd1" className="divEdMainRight">
             <h1>

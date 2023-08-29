@@ -90,7 +90,13 @@ ul {
 }
 li{
   margin-bottom: 20px;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+}
+#myImage{
+  box-shadow: 10px 10px 9px -6px rgba(0,0,0,0.75);
+}
+#myImage{
+  transition: 0.3s ease;
 }
 
 .divEdMain {
@@ -116,15 +122,6 @@ li{
   transition: 1s ease-in;
   opacity: 1;
 }
-
-
-
-
-
-
-
-
-
 
 
 #tagline {
