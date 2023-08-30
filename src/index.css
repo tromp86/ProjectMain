@@ -69,7 +69,9 @@ a {
   padding-bottom: 50px;
   margin-bottom: 100px;
 }
-
+.container img{
+  width: 700px;
+}
 .containerAdd {
   background: linear-gradient(to right, #a8c7e2, #ffcccc, #fff2d9);
   background-size: 200%;
@@ -94,8 +96,6 @@ li{
 }
 #myImage{
   box-shadow: 10px 10px 9px -6px rgba(0,0,0,0.75);
-}
-#myImage{
   transition: 0.3s ease;
 }
 
@@ -256,8 +256,8 @@ a:hover {
       rgba(42, 42, 42, 0.773),
       rgba(37, 37, 37, 0)
     ),
-    url("./assets/1.jpg") center center fixed;
-  background-size: 100% auto;
+    url("./assets/1.jpg") center top fixed;
+  background-size: 110% auto;
   background-repeat: no-repeat;
   color: white;
   display: flex;
@@ -442,6 +442,22 @@ li{
   background-color: #ddd;
   color: black;
 }
+@media (max-width: 1024px) {
+  .h1{
+    font-size: 4.0rem;
+  }
+  .header-links {
+    margin-top: -100px;
+  }
+  .container img{
+    width: 460px;
+  }
+  .divEd1 {
+    font-size: 0.8rem;
+    width: 400px;
+  }
+}
+
 @media (max-width: 768px) {
   #middle {
     background-size: 400%;  
@@ -480,6 +496,15 @@ li{
     margin: 6px 0;
     transition: 0.4s;
     display: block;
+  }
+  .container{
+    flex-direction: column;
+  }
+  .container img{
+    width: 360px;
+  }
+  .divEd1 {
+    padding: 10px;
   }
 }
 

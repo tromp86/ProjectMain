@@ -41,7 +41,7 @@ const MiddleComponent = () => {
       if (scrollPosition > 80) {
         document.getElementById("middle").style.backgroundSize = "150% auto";
       } else {
-        document.getElementById("middle").style.backgroundSize = "100% auto";
+        document.getElementById("middle").style.backgroundSize = "110% auto";
       }
     }
   }, [width, scrollPosition]);
