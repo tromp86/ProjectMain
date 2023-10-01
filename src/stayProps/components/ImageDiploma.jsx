@@ -37,9 +37,6 @@ function ImageDiploma() {
       }, 2000);
   };
 
-  const imageStyle = {
-    width: "700px",
-  };
   return (
     // <div>
     //   <img src={imagesDiploma} alt="Деякий опис" style={imageStyle} />
@@ -56,7 +53,6 @@ function ImageDiploma() {
         src={imagesDiploma}
         alt="A beautiful scenery"
         style={{
-          ...imageStyle,
           transform: `rotateX(${currentRotate.x}deg) rotateY(${currentRotate.y}deg) rotateZ(${currentRotate.z}deg)`,
         }}
       />
