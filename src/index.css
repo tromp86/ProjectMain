@@ -253,17 +253,17 @@ a:hover {
   height: 80vh;
   background: linear-gradient(
       0deg,
-      rgba(42, 42, 42, 0.773),
-      rgba(37, 37, 37, 0)
+      rgba(54, 49, 49, 0.773),
+      rgba(77, 72, 72, 0)
     ),
-    url("./assets/1.jpg") center top fixed;
-  background-size: 110% auto;
+    url("./assets/100.jpg") center top fixed;
+  background-size: 30% auto;
   background-repeat: no-repeat;
   color: white;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  transition: 1s ease-in-out;
+  transition: 0.8s ease-in-out;
   padding-top: 20vh;
 }
 

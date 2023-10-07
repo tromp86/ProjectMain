@@ -13,7 +13,7 @@ function FooterLogoEfect() {
     const imageLogo = document.getElementById('logo');
     if (imageLogo) {
       if (isVisible) {
-        imageLogo.style.animation = 'bounce-in-right 0.9s both';
+        imageLogo.style.animation = 'bounce-in-right 0.6s ease-in-out';
         // imageLogo.style.transform = 'translateX(100px)';
       } else {
         // imageLogo.style.transform = 'translateX(300px)';

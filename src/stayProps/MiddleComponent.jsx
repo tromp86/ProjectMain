@@ -38,10 +38,10 @@ const MiddleComponent = () => {
 
   useEffect(() => {
     if (width >= 900) {
-      if (scrollPosition > 80) {
-        document.getElementById("middle").style.backgroundSize = "150% auto";
+      if (scrollPosition > 90) {
+        document.getElementById("middle").style.backgroundSize = "130% auto";
       } else {
-        document.getElementById("middle").style.backgroundSize = "110% auto";
+        document.getElementById("middle").style.backgroundSize = "105% auto";
       }
     }
   }, [width, scrollPosition]);
@@ -64,8 +64,8 @@ const MiddleComponent = () => {
           <a className="links" href="#contact">
             contact
           </a>
-          <a className="links tooltip" target="_blank" href="https://drive.google.com/file/d/1eIS00vgMj085a2RnOo_deKibyHJVth0N/view?usp=sharing" download="VladyslavCV.rtf">
-            <img src={dowload} alt="dowload" width="50" height="50"/><span className="tooltiptext">dowload CV</span></a>
+          {/* <a className="links tooltip" target="_blank" href="https://drive.google.com/file/d/1eIS00vgMj085a2RnOo_deKibyHJVth0N/view?usp=sharing" download="VladyslavCV.rtf">
+            <img src={dowload} alt="dowload" width="50" height="50"/><span className="tooltiptext">dowload CV</span></a> */}
         </div>
       </div>
       <MenuIcon />
